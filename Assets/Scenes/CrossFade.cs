@@ -8,32 +8,54 @@ public class CrossFade : MonoBehaviour
     void Start()
     {
         meshAnimator.Play();
-        meshAnimator.OnAnimationFinished += OnAnimationFinished;
+        meshAnimator.eventReciever = gameObject;
+        //meshAnimator.OnAnimationFinished += OnAnimationFinished;
     }
     void OnAnimationFinished(string anim)
     {
         string newAnim = string.Empty;
         switch (anim)
         {
-            case "idle":
-                newAnim = "run_forward";
+            case "KickAttack":
+                newAnim = "Idle";
                 break;
-            case "run_forward":
-                newAnim = "run_backward";
-                break;
-            case "run_backward":
-                newAnim = "run_left";
-                break;
-            case "run_left":
-                newAnim = "run_right";
-                break;
-            case "run_right":
-                newAnim = "idle";
-                break;
+            
         }
-        if (crossFade)
-            meshAnimator.Crossfade(newAnim);
-        else
-            meshAnimator.Play(newAnim);
+        
+        meshAnimator.Crossfade(newAnim);
+    }
+
+    public void EventAnimEnd(object anim)
+    {
+        string newAnim = string.Empty;
+        string strAnim = (string)anim;
+        switch (strAnim)
+        {
+            case "KickAttack":
+                newAnim = "Idle";
+                break;
+            
+        }
+        
+        meshAnimator.Crossfade(newAnim, 0.01f);
+    }
+
+    public void OnClickBtn(string _name)
+    {
+        switch (_name)
+        {
+            case "KickAttack":
+            {
+                meshAnimator.Crossfade(_name, 0.01f);
+                break;
+            }
+            case "run":
+            {
+                meshAnimator.Crossfade(_name, 0.01f);
+                break;
+            }
+        }
+            
+        
     }
 }

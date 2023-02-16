@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: orc_archer_Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: bip_hordePelvis
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordecloth1
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordecloth1/bip_hordecloth2
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeLThigh
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeLThigh/bip_hordeLCalf
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeLThigh/bip_hordeLCalf/bip_hordeLFoot
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeLThigh/bip_hordeLCalf/bip_hordeLFoot/bip_hordeLDigit11
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeRThigh
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeRThigh/bip_hordeRCalf
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeRThigh/bip_hordeRCalf/bip_hordeRFoot
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeRThigh/bip_hordeRCalf/bip_hordeRFoot/bip_hordeRDigit11
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/bip_hordeLDigit11
+      1
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/bip_hordeLDigit21
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/bip_hordeLDigit21/bip_hordeLDigit22
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/ctrl_orc
+      arch_main
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/ctrl_orc
+      arch_main/bone_orc arch_main
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/ctrl_orc
+      arch_main/ctrl_orc arch_arrow
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/ctrl_orc
+      arch_main/ctrl_orc arch_arrow/bone_orc arch_botton00
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/ctrl_orc
+      arch_main/ctrl_orc arch_arrow/bone_orc arch_botton00/bone_orc arch_botton01
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/ctrl_orc
+      arch_main/ctrl_orc arch_arrow/bone_orc arch_top00
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeLCollarbone/bip_hordeLUpperarm/bip_hordeLForearm/bip_hordeLPalm/ctrl_orc
+      arch_main/ctrl_orc arch_arrow/bone_orc arch_top00/bone_orc arch_top01
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeNeck
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeNeck/bip_hordeHead
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeNeck/bip_hordeHead/bip_hordeMouth
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeNeck/bip_hordeHead/bip_hordeTail1
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeRCollarbone
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeRCollarbone/bip_hordeRUpperarm
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeRCollarbone/bip_hordeRUpperarm/bip_hordeRForearm
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeRCollarbone/bip_hordeRUpperarm/bip_hordeRForearm/bip_hordeRPalm
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeRCollarbone/bip_hordeRUpperarm/bip_hordeRForearm/bip_hordeRPalm/bip_hordeRDigit11
+      1
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeRCollarbone/bip_hordeRUpperarm/bip_hordeRForearm/bip_hordeRPalm/bip_hordeRDigit21
+    m_Weight: 1
+  - m_Path: bip_hordePelvis/bip_hordeSpine1/bip_hordeSpine2/bip_hordeSpine3/bip_hordeRibcage/bip_hordeRCollarbone/bip_hordeRUpperarm/bip_hordeRForearm/bip_hordeRPalm/bip_hordeRDigit21/bip_hordeRDigit22
+    m_Weight: 1
+  - m_Path: Orc_archer
+    m_Weight: 1
