@@ -4,3 +4,9 @@ Logs
 Assembly-CSharp.csproj
 *.csproj
 *.sln
+Assets/OutPut
+Assets/OutPut.meta
+.idea
+obj
+UserSettings
+.DS_Store
